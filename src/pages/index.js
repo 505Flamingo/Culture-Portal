@@ -4,18 +4,31 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import Image from "../components/Image"
 import SEO from "../components/Seo"
+import "../pages/styles.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Main" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/search/">Go to page 2</Link>
+    <div class="main-container">
+      <div class="buttons">
+          <a class="to-authors-list" href="#"> К списку авторов </a>
+          <a class="to-main-page" href=""> На главную </a>
+        </div>
+        <div class="main-page-text">
+          <p>Самобытная художественная культура Беларуси формировалась на протяжении столетий. 
+            Здесь существовали оригинальные архитектурные и художественные школы, создавались 
+            неповторимые музыкальные и литературные произведения.</p>
+          <p>Все дошедшие до наших дней шедевры белорусского искусства находятся под защитой государства. 
+            Они хранятся в коллекциях крупнейших белорусских музеев, собраниях библиотек. Классика 
+            белорусской музыки и драматургии демонстрируется на театральных подмостках и в концертных 
+            залах.</p>
+            <p>Список авторов, которые в данную минуту находятся на нашем сервере (5 человек). 
+              Здесь учитываются писатели, которые проживали на территории Беларусь и занимались 
+              своим творчеством на протяжении долгих лет.</p>
+        </div>
+        
+    </div>      
   </Layout>
 )
 
-export default IndexPage
+ export default IndexPage
+
