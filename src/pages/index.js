@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div class="main-container">
       <div class="buttons">
           <a class="to-authors-list" href="#"> К списку авторов </a>
-          <a class="to-main-page" href="#"> На главную </a>
+          
         </div>
         <div class="main-page-text">
           <p>Самобытная художественная культура Беларуси формировалась на протяжении столетий. 
@@ -37,32 +37,39 @@ const IndexPage = () => (
         </div>
         <div class="developers">
           <div class="dev-card">
-            <p class="dev-name">Vasil</p>            
-            <p class="github-id"></p>
+            <p class="dev-name">Vasil</p> 
+            <div class="dev-photo"></div>     
+            <a class="github-id" href="https://github.com/TuTejsy">TuTejsy</a>
           </div>
            <div class="dev-card">
-            <p class="dev-name">Katya</p>            
-            <p class="github-id"></p>
+            <p class="dev-name">Katya</p>
+            <div class="dev-photo"></div>             
+            <a class="github-id"></a>
           </div>
           <div class="dev-card">
-            <p class="dev-name">Natalya</p>            
-            <p class="github-id"></p>
+            <p class="dev-name">Natalya</p> 
+            <div class="dev-photo"></div>           
+            <a class="github-id" href="https://github.com/NatalyaApasova">NatalyaApasova</a>
           </div>
           <div class="dev-card">
-            <p class="dev-name">Vlad</p>            
-            <p class="github-id"></p>
+            <p class="dev-name">Vlad</p>
+            <div class="dev-photo"></div>           
+            <a class="github-id" href=""></a>
           </div>
           <div class="dev-card">
-            <p class="dev-name">Anton</p>            
-            <p class="github-id"></p>
+            <p class="dev-name">Anton</p>
+            <div class="dev-photo"></div>            
+            <a class="github-id" href="https://github.com/Zamtakaish">Zamtakaish</a>
           </div>
           <div class="dev-card">
-            <p class="dev-name">Lidiya</p>            
-            <p class="github-id"></p>
+            <p class="dev-name">Lidiya</p>
+            <div class="dev-photo"></div>            
+            <a class="github-id" href="https://github.com/505Flamingo">505Flamingo</a>
             </div>
           <div class="dev-card">
-            <p class="dev-name">Qunapi</p>
-            <p class="github-id"></p>
+            <p class="dev-name">Andrew</p>
+            <div class="dev-photo"></div>
+            <a class="github-id" href=""></a>
           </div> 
         </div>
     </div>      
